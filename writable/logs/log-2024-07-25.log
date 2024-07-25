@@ -1,0 +1,42 @@
+CRITICAL - 2024-07-25 04:37:28 --> ErrorException: Undefined array key "plan_id"
+[Method: GET, Route: buscar_ciudadano/1007928191909]
+in APPPATH\Views\form_modificar_ciudadano.php on line 55.
+ 1 APPPATH\Views\form_modificar_ciudadano.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "plan_id"', 'C:\\xampp\\htdocs\\fs2024\\ci4_ciudadanos\\app\\Views\\form_modificar_ciudadano.php', 55)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fs2024\\ci4_ciudadanos\\app\\Views\\form_modificar_ciudadano.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('form_modificar_ciudadano', [], true)
+ 5 APPPATH\Controllers\CiudadanoController.php(49): view('form_modificar_ciudadano', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CiudadanoController->buscarCiudadanos('1007928191909')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CiudadanoController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-25 04:39:06 --> ErrorException: Undefined array key "plan_id"
+[Method: GET, Route: buscar_ciudadano/1008136551007]
+in APPPATH\Views\form_modificar_ciudadano.php on line 55.
+ 1 APPPATH\Views\form_modificar_ciudadano.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "plan_id"', 'C:\\xampp\\htdocs\\fs2024\\ci4_ciudadanos\\app\\Views\\form_modificar_ciudadano.php', 55)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fs2024\\ci4_ciudadanos\\app\\Views\\form_modificar_ciudadano.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('form_modificar_ciudadano', [], true)
+ 5 APPPATH\Controllers\CiudadanoController.php(49): view('form_modificar_ciudadano', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CiudadanoController->buscarCiudadanos('1008136551007')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CiudadanoController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-25 04:46:52 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: /]
+in APPPATH\Views\welcome_message.php on line 73.
+ 1 APPPATH\Views\welcome_message.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\fs2024\\ci4_ciudadanos\\app\\Views\\welcome_message.php', 73)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\fs2024\\ci4_ciudadanos\\app\\Views\\welcome_message.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('welcome_message')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
